@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login test is Executing <br>]]>
+    </line>
+    <line>
+      <![CDATA[Login test is Executing <br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18373" started-at="2019-05-28T17:57:35Z" finished-at="2019-05-28T17:57:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18373" started-at="2019-05-28T17:57:35Z" finished-at="2019-05-28T17:57:53Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@6d4b1c02]" name="setup" is-config="true" duration-ms="4679" started-at="2019-05-28T17:57:35Z" finished-at="2019-05-28T17:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createPageObj()[pri:0, instance:test.LoginTest@6d4b1c02]" name="createPageObj" is-config="true" duration-ms="86" started-at="2019-05-28T17:57:39Z" finished-at="2019-05-28T17:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPageObj -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:test.LoginTest@6d4b1c02]" name="launchApp" is-config="true" duration-ms="5751" started-at="2019-05-28T17:57:40Z" finished-at="2019-05-28T17:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginWithValidUserTest()[pri:1, instance:test.LoginTest@6d4b1c02]" name="loginWithValidUserTest" duration-ms="3495" started-at="2019-05-28T17:57:45Z" finished-at="2019-05-28T17:57:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test is Executing <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserTest -->
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:test.LoginTest@6d4b1c02]" name="checkExecutionstatus" is-config="true" duration-ms="4" started-at="2019-05-28T17:57:49Z" finished-at="2019-05-28T17:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUserTest status=SUCCESS method=LoginTest.loginWithValidUserTest()[pri:1, instance:test.LoginTest@6d4b1c02] output=Login test is Executing <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionstatus -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:test.LoginTest@6d4b1c02]" name="launchApp" is-config="true" duration-ms="2795" started-at="2019-05-28T17:57:49Z" finished-at="2019-05-28T17:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginWithInValidUserTest()[pri:2, instance:test.LoginTest@6d4b1c02]" name="loginWithInValidUserTest" duration-ms="1344" started-at="2019-05-28T17:57:52Z" finished-at="2019-05-28T17:57:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test is Executing <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidUserTest -->
+        <test-method status="PASS" signature="checkExecutionstatus(org.testng.ITestResult)[pri:0, instance:test.LoginTest@6d4b1c02]" name="checkExecutionstatus" is-config="true" duration-ms="1" started-at="2019-05-28T17:57:53Z" finished-at="2019-05-28T17:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInValidUserTest status=SUCCESS method=LoginTest.loginWithInValidUserTest()[pri:2, instance:test.LoginTest@6d4b1c02] output=Login test is Executing <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutionstatus -->
+        <test-method status="PASS" signature="clearPageObj()[pri:0, instance:test.LoginTest@6d4b1c02]" name="clearPageObj" is-config="true" duration-ms="0" started-at="2019-05-28T17:57:53Z" finished-at="2019-05-28T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPageObj -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="158" started-at="2019-05-28T17:57:53Z" finished-at="2019-05-28T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
