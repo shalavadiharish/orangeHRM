@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -64,7 +65,9 @@ public class LoginTest {
 	public void loginWithInValidUserTest()
 	{
 		Reporter.log("Login test is Executing <br>");
-		lpObj.loginToApp("Admin123", "admin123");
+		//lpObj.loginToApp("Admin123", "admin123");
+		Assert.fail();
+		
 	}
 	
 	
@@ -77,7 +80,7 @@ public class LoginTest {
 			File srcFile = ss.getScreenshotAs(OutputType.FILE);
 			
 			try {
-				FileUtils.copyFile(srcFile, new File("reports\\ss\\Screenshot_"+ Utility.getDate()+ ".png"));
+				FileUtils.copyFile(srcFile, new File("reports\\ss\\Screenshot_"+ Utility.getDate()+ result.getName()+".png"));
 						
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
